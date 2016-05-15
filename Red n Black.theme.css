@@ -969,6 +969,9 @@
     background-size: 40px 40px;
     border-radius: 10px;
 }
+.theme-dark.context-menu .item-subMenu {
+    background: #350000 url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
+}
 
 /* Scroller Settings */
 
