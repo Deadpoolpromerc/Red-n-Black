@@ -709,6 +709,12 @@
     background-size: 40px 40px;
     border-radius: 10px;
 }
+.channel-members .avatar-small {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    border-radius: 10px;
+}
 
 /* Scroller Settings */
 
@@ -1113,12 +1119,6 @@
 }
 .need-help-modal a:hover {
     color: #9f0000;
-}
-.avatar-large {
-    width: 33px;
-    height: 33px;
-    background-size: 33px 33px;
-    left: 8px;
 }
 .channel-textarea {
     margin: 10px 0 30px;
