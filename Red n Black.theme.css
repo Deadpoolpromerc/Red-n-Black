@@ -571,8 +571,9 @@
 
 /*Server Settings*/
 
-#autocomplete-popout .row.selected, #autocomplete-popout .row:hover {
-    background: linear-gradient(90deg, rgba(136, 2, 2, 0.69), rgba(0, 0, 0, 0.59));
+#autocomplete-popout .row.selected, 
+#autocomplete-popout .row:hover {
+    background: linear-gradient(90deg, rgba(136, 2, 2, 0.69), rgba(0, 0, 0, 0.59)) !important;
 }
 #autocomplete-popout .row.selected a,
 #autocomplete-popout .row:hover a {
@@ -581,6 +582,24 @@
 #autocomplete-popout .row.selected,
 #autocomplete-popout .row:hover {
     background: linear-gradient(90deg, #36393F, #303238);
+}
+#autocomplete-popout .empty p {
+    color: #650202;
+    font-size: 16px;
+    text-align: center;
+    margin: -20px 0 18px;
+}
+#autocomplete-popout .empty p:hover {
+    color: #650202;
+    font-size: 16px;
+    text-align: center;
+    margin: -20px 0 18px;
+}
+#autocomplete-popout .row.selected, 
+    background: linear-gradient(90deg, #3A0000, #210000);
+}
+#autocomplete-popout .row:hover {
+    background: linear-gradient(90deg, #790202, #210000);
 }
 .guild-settings-modal-members {
     background-color: rgba(2, 0, 0, 0.51);
@@ -603,8 +622,8 @@
     border: 1px solid #9f0000;
 }
 .clipboard-input-inner input {
-    color: #FFFFFF;
-    background: linear-gradient(90deg, rgba(136, 2, 2, 0.69), rgba(0, 0, 0, 0.59));
+    color: #A50000;
+    background: rgba(0, 0, 0, 0.95);
 }
 .search-bar.search-bar-light {
     background-color: rgba(0, 0, 0, 0);
@@ -612,6 +631,36 @@
 }
 .form .Select-control {
     border: 1px solid #FF0A0A;
+}
+.guild-settings-modal-members h6 {
+    color: #980000;
+}
+.alert.form .form-inner .cancel {
+    border-radius: 3px;
+    border-color: #940305 !important;
+    background-color: rgba(0, 0, 0, 0.62);
+    color: #fff;
+}
+.alert.form .form-inner .cancel:hover {
+    background-color: #860000 !important;
+}
+.guild-settings-modal-members .member-buttons .btn {
+    background: #9f0000;
+    border: 1px solid #9f0000;
+    color: #EFEFEF;
+}
+.guild-settings-modal-members .member-buttons .btn:hover {
+    background-color: #690000 !important;
+    border: 1px solid #9f0000;
+    color: #EFEFEF;
+}
+.guild-settings-modal-members .member-buttons .btn.btn-danger {
+    border: 1px solid #B50000;
+    color: #DEDEDE;
+}
+.guild-header ul li:hover a {
+    background-color: hsla(0, 95%, 34%, 0.75);
+    border-radius: 3px;
 }
 
 /* Sidebar Members */
@@ -972,21 +1021,12 @@
     background: #353940;
     border-bottom: 1px solid #494C50;
 }
-.member-roles .member-role {
-    background-color: #9f0000;
-    color: #ffffff;
-    border: 1px solid #9f0000;
-}
 .clipboard-input-inner input::selection {
     background: #9f0000;
 }
 .clipboard-input-inner button {
     border-left: 1px solid #424549;
     background-color: #282B30;
-}
-.clipboard-input-inner input {
-    color: #9f0000;
-    background: #424549;
 }
 .clipboard-input-inner {
     background: #1C1E22;
@@ -1020,6 +1060,9 @@
 }
 .btn-help:hover {
     background: #9f0000;
+}
+.btn-help {
+    background: #750000;
 }
 #permissions .permissions-helpdesk {
     color: #9f0000;
@@ -1271,9 +1314,6 @@
 }
 .alert.form .form-inner .btn {
     border: 1px solid #9f0000;
-}
-.alert.form .form-inner .cancel {
-    border-color: #99aab5 !important;
 }
 .user-settings-modal .account-warning {
     border: 1px solid #B54343;
@@ -1697,12 +1737,12 @@ textarea {
 .form header {
     color: #9f0000;
 }
-.form .control-group input[type=email],
-.form .control-group input[type=password],
-.form .control-group input[type=text],
+.form .control-group input[type=email], 
+.form .control-group input[type=password], 
+.form .control-group input[type=text], 
 .form .control-group textarea {
-    background: #32353A;
-    color: #90A0AA;
+    background: rgba(37, 0, 0, 0.55);
+    color: #A20000;
     border-bottom: 1px solid #232529;
     border-radius: 3px;
 }
@@ -1815,18 +1855,6 @@ a:link {
 }
 #bd-ps-body table tr:nth-child(odd):hover {
     background-color: #9f0000;
-}
-.guild-settings-modal-members .member-buttons .btn {
-    background: #9f0000;
-    border: 1px solid #9f0000;
-    color: #EFEFEF;
-}
-.guild-settings-modal-members .member-buttons .btn.btn-danger:hover {
-    background: #9f0000;
-}
-.guild-settings-modal-members .member-buttons .btn.btn-danger {
-    border: 1px solid #9f0000;
-    color: #FFFFFF;
 }
 .guild-settings-modal-members .guild-settings-modal-list .member+.member {
     border-top: 1px solid #2E3136;
@@ -2480,12 +2508,6 @@ img.image {
     background-repeat: no-repeat;
     background-position: 50%;
 }
-.form .control-group input[type=email], .form .control-group input[type=password], .form .control-group input[type=text], .form .control-group textarea {
-    background: rgba(37, 0, 0, 0.55);
-    color: #A20000;
-    border-bottom: 1px solid #232529;
-    border-radius: 3px;
-}
 .form .control-group label a {
     color: #B73030;
     text-decoration: none;
@@ -2514,16 +2536,15 @@ img.image {
 }
 .form .btn-primary {
     background-color: rgba(159, 0, 0, 0.62)!important;
-}
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
-    background-color: rgba(0, 0, 0, 0.43) !important;
-    border-color: rgba(159, 0, 0, 0.69) !important;
-}
-.form .btn-primary {
-    background-color: rgba(185, 0, 0, 0.67) !important;
+    
 }
 .form .btn-primary:hover {
     background-color: #5F0000 !important;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: rgba(0, 0, 0, 0.43) !important;
+    border-color: rgba(159, 0, 0, 0.69) !important;
 }
 #bd-customcss-detach-container {
     position: absolute;
