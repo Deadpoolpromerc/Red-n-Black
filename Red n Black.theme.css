@@ -494,6 +494,12 @@
     background-color: #600000 !important;
     border-color: #600000 !important;
 }
+#rmenu {
+    background: #8A0C0C;
+}
+#rmenu:hover {
+    background-color: #b60000;
+}
 
 /* Popouts */
 
