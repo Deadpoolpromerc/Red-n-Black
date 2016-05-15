@@ -8,7 +8,7 @@ There we go~
 
 A theme for the red and black lovers
 
-Just add this in the 'CSS Theme' tab of the BetterDiscord with your own picture to change the background.
+Just add this in the 'CSS Theme' tab of the BetterDiscord with your own picture to change the background of the first scrnshot.
 ```
 .app {
     background-image: url("https://i.imgur.com/P0k3VRY.jpg") !important;
