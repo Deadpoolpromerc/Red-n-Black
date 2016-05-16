@@ -1,6 +1,6 @@
 # Red-n-Black
 
-<img src="http://i.imgur.com/jLwi6En.png"/>
+<img src="http://i.imgur.com/Vtx9kIo.jpg"/>
 
 <img src="http://i.imgur.com/RP0apJN.jpg"/>
 
