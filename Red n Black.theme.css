@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
 }
 
-/* Chat */
+/* Main Chat Stuff */
 
 .chat .divider>span {
     color: #F1F1F1;
@@ -144,6 +144,38 @@
     background: rgba(255, 255, 255, 0.1) !important;
     color: rgba(255, 255, 255, 0.7) !important;
     padding: 0.3em 0.6em;
+}
+.channel-textarea-inner {
+    border: 2px solid rgba(230, 0, 0, 0.35) !important;
+    background: rgba(16, 1, 1, 0.6) !important;
+}
+::-webkit-input-placeholder {
+  color: #9f0000 !important;
+
+}
+.channel-textarea-autocomplete-inner {
+    background:rgba(0,0,0,0.84)!important;
+    border:none !important;
+}
+
+.channel-textarea-autocomplete-inner:after {
+    display:none;
+}
+
+.channel-textarea-autocomplete-inner header {
+    background:rgba(0,0,0,0.84)!important;
+    border-radius:5px 5px 0 0;
+    border:none !important;
+}
+
+.channel-textarea-autocomplete ul li.active {
+    background:rgba(255,255,255,0.1)!important;
+}
+.channel-textarea-upload {
+    border-right-color: hsl(0, 96%, 18%) !important;
+}
+.message-group .edit-message .channel-textarea-inner {
+    border-color: #9f0000;
 }
 
 /* Guild */
@@ -1683,13 +1715,6 @@ textarea {
 #voice-connection .btn-group {
     border: none;
 }
-.channel-textarea-upload {
-    border-right-color: hsla(0, 0%, 100%, .1) !important;
-}
-.channel-textarea-inner {
-    border: 2px solid rgba(255, 255, 255, 0.1) !important;
-    background: rgba(0, 0, 0, 0.6) !important;
-}
 .typing {
     font-size: 11px;
 }
@@ -2008,9 +2033,6 @@ a:link {
 .private-channels .search-result:hover:before {
     border-left: 4px solid #9f0000;
 }
-.message-group .edit-message .channel-textarea-inner {
-    border-color: #9f0000;
-}
 #bd-ps-body table tr:hover {
     background-color: #9f0000;
 }
@@ -2270,24 +2292,6 @@ a:link {
 }
 .message-group .image:hover {
     -webkit-filter: none;
-}
-.channel-textarea-autocomplete-inner {
-    background:rgba(0,0,0,0.84)!important;
-    border:none !important;
-}
-
-.channel-textarea-autocomplete-inner:after {
-    display:none;
-}
-
-.channel-textarea-autocomplete-inner header {
-    background:rgba(0,0,0,0.84)!important;
-    border-radius:5px 5px 0 0;
-    border:none !important;
-}
-
-.channel-textarea-autocomplete ul li.active {
-    background:rgba(255,255,255,0.1)!important;
 }
 span.discriminator {
     font-size: 11px !important;
@@ -2799,10 +2803,6 @@ a:link {
 }
 #pubs-header input:focus {
     width: 300px;
-}
-.channel-textarea-inner {
-    border: 2px solid rgba(230, 0, 0, 0.35) !important;
-    background: rgba(16, 1, 1, 0.6) !important;
 }
 .server-info button:hover {
     background-color: #9f0000;
