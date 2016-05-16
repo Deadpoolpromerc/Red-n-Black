@@ -19,17 +19,17 @@ Step 5: Open Discord Settings>BetterDiscord>Themes>Enable the theme
 Just add one of these two codes or both in the `Custome CSS` tab  of the `BetterDiscord` settings:-
 
 ( Be sure to add the `s` after `http` or it won't appear. )
+```css
+/*First Background*/
 
-To change the background of the first scrnshot:
-```
 .app {
     background-image: url("https://i.imgur.com/P0k3VRY.jpg") !important;
     background-size: 1500px 900px !important;
     background-repeat: no-repeat !important;
 }
-```
-Or to change the background of the second scrnshot:
-```
+
+/*Second Background*/
+
 .callout-backdrop {
     opacity:0.9 !important;
     background: url(https://i.imgur.com/CcntY8Y.jpg) !important;
