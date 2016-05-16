@@ -18,7 +18,7 @@ Step 5: Restart Discord
 Step 6: Open Discord Settings>BetterDiscord>Themes>Enable theme
 ```
 
-Just add the code below in the `Custome CSS` tab of the `BetterDiscord` settings:
+Just add the code below to change the pic in the `Custome CSS` tab of the `BetterDiscord` settings:
 
 ( Be sure to add the `s` after `http` when you change the picture or it won't appear. )
 ```css
