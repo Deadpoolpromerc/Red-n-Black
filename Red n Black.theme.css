@@ -4,14 +4,14 @@
 
 .app {
     background-image: url("https://i.imgur.com/P0k3VRY.jpg") !important;
-    background-size: 1500px 900px !important;
+    background-size: 1500px 900px;
     background-repeat: no-repeat;
 }
 .callout-backdrop {
     opacity:0.9 !important;
     background: url(https://i.imgur.com/CcntY8Y.jpg);
-    background-size: 1500px 900px !important;
-    background-repeat: no-repeat;
+    background-size: 1500px 900px;
+    background-repeat: no-repeat !important;
 }
 
 /* Main Chat Stuff */
@@ -460,7 +460,7 @@
 
 .channel-textarea-emoji>.sprite-item,
 .channel-textarea-emoji.popout-open .sprite-item {
-  background-image:url(https://i.imgur.com/ksIADoj.png)!important;
+  background-image:url(https://i.imgur.com/Mo6Zk5W.png)!important;
 }
 .emoji-picker .categories .item.selected {
     border-bottom-color: #9C0505;
