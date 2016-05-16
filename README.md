@@ -25,7 +25,7 @@ Or to change the background of the second scrnshot:
 ```
 .callout-backdrop {
     opacity:0.9 !important;
-    background: url(https://i.imgur.com/CcntY8Y.jpg);
+    background: url(https://i.imgur.com/CcntY8Y.jpg) !important;
     background-size: 1500px 900px !important;
     background-repeat: no-repeat;
 }
