@@ -18,7 +18,7 @@ To change the background of the first scrnshot:
 .app {
     background-image: url("https://i.imgur.com/P0k3VRY.jpg") !important;
     background-size: 1500px 900px !important;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 }
 ```
 Or to change the background of the second scrnshot:
@@ -27,6 +27,6 @@ Or to change the background of the second scrnshot:
     opacity:0.9 !important;
     background: url(https://i.imgur.com/CcntY8Y.jpg) !important;
     background-size: 1500px 900px !important;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 }
 ```
