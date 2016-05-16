@@ -16,9 +16,9 @@ Step 4: Go back to Discord and CTRL+R
 Step 5: Open Discord Settings>BetterDiscord>Themes>Enable the theme
 ```
 
-Just add one of these two codes or both in the `Custome CSS` tab  of the `BetterDiscord` settings:-
+Just add the code below in the `Custome CSS` tab of the `BetterDiscord` settings:
 
-( Be sure to add the `s` after `http` or it won't appear. )
+( Be sure to add the `s` after `http` when you change the picture or it won't appear. )
 ```css
 /*First Background*/
 
