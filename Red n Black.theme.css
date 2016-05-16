@@ -58,9 +58,6 @@
     opacity: 0.9;
     background: rgba(154, 0, 0, 0.67) !important;
 }
-.chat .empty-message {
-    height: 270px;
-}
 .chat .new-messages-bar button:first-child {
     border-radius: 5px;
     margin-right: -14px;
