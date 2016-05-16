@@ -11,7 +11,7 @@ For the anime fans with some red and black:
 ```
 Step 1: Click the Raw Button
 Step 2: Right Click and click Save As 
-Step 3: Save to %appdata%\betterdiscord\themes\ or for Macs: Library/Preferences/BetterDiscord/Themes and make sure extension is .theme.css
+Step 3: Save to %appdata%\betterdiscord\themes\ or for Macs: ~/Library/Preferences/themes and make sure extension is .theme.css
 Step 4: Go back to Discord and CTRL+R
 Step 5: Open Discord Settings>BetterDiscord>Themes>Enable the theme
 ```
