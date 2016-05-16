@@ -11,7 +11,7 @@
     opacity:0.9 !important;
     background: url(https://i.imgur.com/CcntY8Y.jpg);
     background-size: 1500px 900px;
-    background-repeat: no-repeat !important;
+    background-repeat: no-repeat;
 }
 
 /* Main Chat Stuff */
@@ -730,7 +730,7 @@
     background-color: #920000 !important;
 }
 
-/*Server Settings*/
+/*Server Management*/
 
 #autocomplete-popout .row.selected, 
 #autocomplete-popout .row:hover {
@@ -901,6 +901,17 @@
     background-color: rgb(0, 0, 0);
     color: #E60000;
     font-size: 19px;
+}
+.change-nickname-warning {
+    border-radius: 5px;
+    background: #B50404;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    white-space: initial;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 /* Sidebar Members */
