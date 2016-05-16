@@ -9,10 +9,23 @@ There we go~
 
 For the anime fans with some red and black.
 
-Just add this in the 'CSS Theme' tab of the BetterDiscord with your own picture to change the background of the first scrnshot.
+Just add one of these two codes or both in the `Custome CSS` tab  of the `BetterDiscord` settings:-
+
+(Be sure to add the `s` after http or it won't appear.)
+
+To change the background of the first scrnshot:
 ```
 .app {
     background-image: url("https://i.imgur.com/P0k3VRY.jpg") !important;
+    background-size: 1500px 900px !important;
+    background-repeat: no-repeat;
+}
+```
+Or to change the background of the second scrnshot:
+```
+.callout-backdrop {
+    opacity:0.9 !important;
+    background: url(https://i.imgur.com/CcntY8Y.jpg);
     background-size: 1500px 900px !important;
     background-repeat: no-repeat;
 }
